@@ -1,0 +1,19 @@
+<div class="card">
+        <div style="width: 75%;padding-left: 2%;">
+            <div class="title">
+                {{game.title}}
+            </div>
+            <div class="flags">
+                <span *ngFor="let flag of game.flags; let i = index">
+                    <span *ngIf="!isLastFlag(i)" [class]="getClassFromFlagIndex(i)">{{flag}} | </span>
+                    <span *ngIf="isLastFlag(i)" [class]="getClassFromFlagIndex(i)">{{flag}}</span>
+                </span>
+            </div>
+        </div>
+        <div class="price" style="width: 25%;">
+            <div>
+                {{game.price | formatPrice}}
+            </div> 
+        </div>       
+</div>
+

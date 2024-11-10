@@ -1,0 +1,47 @@
+div.card {
+    display: inline-flex;
+    margin-top: 0%;
+    height: 70px;
+    background-color: #1d1f20;
+    color: #9c9c9c;
+    width: 100%;
+    padding-top: 0;
+
+}
+
+div.title {
+    font-size: x-large;
+    padding-top: 1%;
+    font-weight: bold;
+    height: 50%;
+  
+}
+
+div.flags {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+div.flags > span {
+    margin-right: 2%;
+}
+
+div.price {
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    font-size: xx-large;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+span.first-flag {
+    color: #d8d7d7;
+}
+
+span.not-first-flag {
+    color: #9c9c9c;
+}

@@ -1,0 +1,22 @@
+img.logo {
+    width: 250px;
+    padding-left: 2%;
+}
+
+div.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3%;
+}
+
+div.title{
+    font-size:larger;
+    color: rgb(65, 64, 64);
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+div.title:hover {
+    color: #2c3e50;
+}

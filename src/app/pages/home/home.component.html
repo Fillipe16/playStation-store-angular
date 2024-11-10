@@ -1,0 +1,13 @@
+<div class="container-fluid">
+
+    <app-menu></app-menu>
+    <div class="row mt-5">
+        <div class="col-md-4" *ngFor="let game of games">  
+            <div class="game">
+                <game-card [game]="game"></game-card>
+                <game-desc [game]="game"></game-desc> 
+            </div>     
+        </div>     
+    </div>  
+</div>
+
